@@ -1,0 +1,22 @@
+{% extends '../layouts/shell.njk' %}
+
+{% block content %}
+
+{% include "./banner-image.njk" %}
+
+<main>
+    <div class="main-body">
+        <div class="page-title centered">
+            <h1>{{ heading | safe }}</h1>
+        </div>
+        {{ content1 | safe }}
+    </div>
+    <div class="centered emphasised">
+        {{ pulloutquote | safe}}
+    </div>
+    <div class="main-body">
+        {{ content2 | safe }}
+    </div>
+</main>
+
+{% endblock %}

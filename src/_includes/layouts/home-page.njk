@@ -1,0 +1,27 @@
+---
+layout: components/post.njk
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
+---
+
+{{ content | safe }}
+
+{% block posts %}
+{% for post in posts %}
+    <article>
+      <h2>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h2>
+      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+  
+      {% excerpt post %}
+
+    <a href="{{ post.url | url }}"
+      aria-label="Read more on {{ post.data.title }}">Read more</a>
+
+    </article>
+{% endfor %}
+{% endblock %}
