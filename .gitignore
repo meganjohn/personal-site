@@ -1,0 +1,5 @@
+# static site files
+dist
+
+# Dependency directories
+node_modules/
