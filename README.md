@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/852fb92e-c015-456e-b550-98794be93663/deploy-status)](https://app.netlify.com/sites/agitated-lichterman-86f0f1/deploys)
