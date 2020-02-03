@@ -6,9 +6,14 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: disc;
   padding: 0px;
+  padding-left: 4vw;
   line-height: 2em;
+}
+
+li p {
+  padding-left: 2vw;
 }
 
 a {
