@@ -1,6 +1,8 @@
 body {
   padding: 0px;
   margin: 0px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
   font-family: "Poppins", sans-serif;
   color: #444444;
 }
@@ -14,6 +16,11 @@ ul {
 
 li p {
   padding-left: 2vw;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
 }
 
 a {
@@ -44,48 +51,86 @@ a:active {
   z-index: 10;
 }
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;
-  height: 25px;
-  padding: 8px 12px 5px 12px;
-  font-size: 16px;
+/* Scale navbar elements based on viewport width */
+@media (min-width:601px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 25px;
+    padding: 8px 12px 5px 12px;
+    font-size: 16px;
+  }
+  
+  .nav-bar a {
+    padding: 0px 5px;
+  }
+  
+  .home-link {
+    font-size: 20px;
+    margin-right: 1em;
+  }
+  
+  #twitter-logo {
+    position: relative;
+    bottom: 1px;
+    height: 20px;
+    margin-right: 3px;
+  }
+  
+  #contact-me {
+    margin-left: 3px;
+  }
+
+  .nav-bar-elements {
+    padding-top: 3px;
+  }
 }
 
-.nav-bar a {
-  padding: 0px 5px;
-}
+@media (max-width:600px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 20px;
+    padding: 5px 9px 2.5px 9px;
+    font-size: 13px;
+  }
 
+  .nav-bar a {
+    padding: 0px 2px;
+  }
+
+  .home-link {
+    font-size: 15px;
+    margin-right: 0.4em;
+  }
+
+  #twitter-logo {
+    position: relative;
+    bottom: 2px;
+    height: 18px;
+    margin-right: 3px;
+  }
+  
+  #contact-me {
+    margin-left: 2px;
+  }
+
+  .nav-bar-elements {
+    padding-top: 2px;
+  }
+}
 
 .horizontal-group {
   display: flex;
   flex-direction: row;
-}
-
-.home-link {
-  font-size: 20px;
-  margin-right: 1em;
+  width: max-content;
 }
 
 .twitter-contact-me {
   display: flex;
   align-content: center;
-}
-
-.nav-bar-elements {
-  padding-top: 3px;
-}
-
-#twitter-logo {
-  position: relative;
-  bottom: 1px;
-  height: 20px;
-  margin-right: 3px;
-}
-
-#contact-me {
-  margin-left: 3px;
 }
 
 .shadow {
@@ -176,3 +221,4 @@ footer {
 footer div {
   padding: 0px 5px;
 }
+
