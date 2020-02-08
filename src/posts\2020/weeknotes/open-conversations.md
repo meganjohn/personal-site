@@ -4,6 +4,7 @@ title: Open Conversations
 date: 2020-01-26
 tags: ['post', 'weeknote']
 BannerImageURL: "/images/max-williams-ouqmMLghHr0-unsplash.jpg"
+BannerImageTitle: Flowers in a white vase.
 heading: Open Conversations
 ---
 <!-- Excerpt Start -->

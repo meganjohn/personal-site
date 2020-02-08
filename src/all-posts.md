@@ -2,7 +2,7 @@
 layout: layouts/all-posts.njk
 title: All Posts
 BannerImageURL: "/images/timothy-eberly-gn8LE4uL5PE-unsplash.jpg"
-BannerImageTitle: "Image of a woman holding a coffee cup from Timothy Eberly on Unsplash."
+BannerImageTitle: "Image of a woman holding a coffee cup"
 heading: All published posts
 ---
 
