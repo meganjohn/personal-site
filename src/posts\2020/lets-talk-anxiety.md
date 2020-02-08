@@ -4,6 +4,7 @@ title: Let's Talk Anxiety
 date: 2020-01-02
 tags: ['post', 'mental-health']
 BannerImageURL: "/images/green-chameleon-s9CC2SKySJM-unsplash-cropped.jpg"
+BannerImageTitle: Person writing at a brown, wooden table.
 heading: Let's Talk Anxiety
 ---
 <!-- Brains are funny old things, aren't they? Somehow every human on this planet has the same anatomy and yet they all function differently.

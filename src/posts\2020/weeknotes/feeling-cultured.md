@@ -3,7 +3,8 @@ layout: components/post.njk
 title: Feeling Cultured
 date: 2020-02-02
 tags: ['post', 'weeknote']
-BannerImageURL: "/images/max-williams-ouqmMLghHr0-unsplash.jpg"
+BannerImageURL: "/images/robert-bye-rLYILl2T6Ps-unsplash.jpg"
+BannerImageTitle: A grand, white building against a blue sky.
 heading: Feeling Cultured
 ---
 
