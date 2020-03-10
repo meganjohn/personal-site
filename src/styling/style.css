@@ -71,7 +71,7 @@ a:active {
     margin-right: 1em;
   }
   
-  #twitter-logo {
+  #nav-bar-logo {
     position: relative;
     bottom: 1px;
     height: 20px;
@@ -106,7 +106,7 @@ a:active {
     margin-right: 0.4em;
   }
 
-  #twitter-logo {
+  #nav-bar-logo {
     position: relative;
     bottom: 2px;
     height: 18px;
@@ -126,6 +126,11 @@ a:active {
   display: flex;
   flex-direction: row;
   width: max-content;
+}
+
+.github-link {
+  display: flex;
+  align-content: center;
 }
 
 .twitter-contact-me {
