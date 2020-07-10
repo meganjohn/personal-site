@@ -8,7 +8,8 @@ BannerImageTitle: Purple flowers and a fountain pen on paper.
 heading: 'Code First: Girls Hackathon'
 ---
 
-Finalist project as part of the CF:G Hack from Home this April:
+<!-- Excerpt Start --> 
+Finalist project as part of the CF:G Hack from Home this April<!-- Excerpt End --> :
 
 View project <a target="_blank" href="https://checkd-news.herokuapp.com/">here</a>.
 
