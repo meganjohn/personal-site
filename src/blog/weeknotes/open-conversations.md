@@ -2,7 +2,7 @@
 layout: components/post.njk
 title: Open Conversations
 date: 2020-01-26
-tags: ['blog', 'weeknote']
+tags: ['content', 'blog', 'weeknote']
 BannerImageURL: "/images/max-williams-ouqmMLghHr0-unsplash.jpg"
 BannerImageTitle: Flowers in a white vase.
 heading: Open Conversations

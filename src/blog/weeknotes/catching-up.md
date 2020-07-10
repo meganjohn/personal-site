@@ -2,7 +2,7 @@
 layout: components/post.njk
 title: Catching Up
 date: 2020-03-01
-tags: ['blog', 'weeknote']
+tags: ['content', 'blog', 'weeknote']
 BannerImageURL: "/images/janine-robinson-uZisL-EGGxQ-unsplash.jpg"
 BannerImageTitle: Painting of jazz musicians on a wall.
 heading: Catching Up

@@ -1,8 +1,8 @@
 ---
 layout: layouts/all-posts.njk
 title: Blog
-BannerImageURL: "../images/prudence-earl-NwBx723XaHw-unsplash@0.5x.jpg"
-BannerImageTitle: "Image of plants and books."
+BannerImageURL: "../images/kyle-glenn-_AR74EoWdy0-unsplash@0.5x.jpg"
+BannerImageTitle: Coffee, leafy plant, and notepad.
 heading: My Blog
 ---
 

@@ -2,7 +2,7 @@
 layout: components/post.njk
 title: Let's Talk Anxiety
 date: 2020-01-02
-tags: ['blog', 'mental-health']
+tags: ['content', 'blog', 'mental-health']
 BannerImageURL: "/images/green-chameleon-s9CC2SKySJM-unsplash-cropped.jpg"
 BannerImageTitle: Person writing at a brown, wooden table.
 heading: Let's Talk Anxiety

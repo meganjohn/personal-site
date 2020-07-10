@@ -1,12 +1,11 @@
 ---
 layout: components/post.njk
 pagination:
-  data: collections.content
-  size: 4
+  data: collections.projects
+  size: 200
   reverse: true
   alias: posts
 ---
-
 {{ content | safe }}
 
 {% block posts %}
@@ -20,7 +19,7 @@ pagination:
       {% excerpt post %}
 
     <a href="{{ post.url | url }}"
-      aria-label="Read more of {{ post.data.title }}">Read more</a>
+      aria-label="Read more on {{ post.data.title }}">Read more</a>
 
     </article>
 {% endfor %}

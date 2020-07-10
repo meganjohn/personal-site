@@ -2,7 +2,7 @@
 layout: components/post.njk
 title: Letter to Myself
 date: 2020-01-08
-tags: ['blog', 'mental-health']
+tags: ['content', 'blog', 'mental-health']
 BannerImageURL: "/images/debby-hudson-DR31squbFoA-unsplash.jpg"
 BannerImageTitle: Purple flowers and a fountain pen on paper.
 heading: Dear Me,

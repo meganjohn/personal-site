@@ -51,6 +51,12 @@ a:active {
   z-index: 10;
 }
 
+.line-spacer {
+  width: 1px;
+  background: #1a8cff 0% 0% no-repeat padding-box;
+  opacity: 0.9;
+}
+
 /* Scale navbar elements based on viewport width */
 @media (min-width:601px) {
   .nav-bar {
@@ -68,7 +74,13 @@ a:active {
   
   .home-link {
     font-size: 20px;
-    margin-right: 1em;
+    margin-right: 0.6em;
+  }
+
+  .line-spacer {
+    height: 18px;
+    margin-right: 10px;
+    margin-top: 3px;
   }
   
   #nav-bar-logo {
@@ -84,8 +96,10 @@ a:active {
 
   .nav-bar-elements {
     padding-top: 3px;
+    margin-right: 0.5em;
   }
 }
+
 
 @media (max-width:600px) {
   .nav-bar {
@@ -106,6 +120,10 @@ a:active {
     margin-right: 0.4em;
   }
 
+  .line-spacer {
+    background-color: #ffffff;
+  }
+
   #nav-bar-logo {
     position: relative;
     bottom: 2px;
@@ -119,6 +137,7 @@ a:active {
 
   .nav-bar-elements {
     padding-top: 2px;
+    margin-right: 0.2em;
   }
 }
 
