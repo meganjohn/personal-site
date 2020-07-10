@@ -2,7 +2,7 @@
 layout: components/post.njk
 title: Edinburgh
 date: 2020-02-08
-tags: ['post', 'weeknote']
+tags: ['blog', 'weeknote']
 BannerImageURL: "/images/dominik-resek-oH8G8cn52o8-unsplash.jpg"
 BannerImageTitle: A row of old stone houses.
 heading: Edinburgh and Escaping Rooms
